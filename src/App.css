@@ -1,0 +1,108 @@
+.card .card-img-top {
+width: 100%;
+height: 180px;
+
+}
+
+.container {
+    position:relative;
+    width: 800px;
+    margin: auto;
+    background-color: rgb(190,74,75);
+    border: 7px solid rgb(177,154,131);
+}
+
+.inputbox {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:60px;
+    margin: 0 20px;
+    background-color: rgb(225,193,172);
+}
+.inputbox input {
+    width: 80%;
+    border: 2px solid black;
+    height:30px;
+
+}
+h1 {
+    text-align: center;
+    color:white;
+    margin-top:50px;
+}
+
+.nav {
+    margin: 20px;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link.active {
+    color:white;
+    background-color: rgb(253,81,82);
+    border: 1px solid white;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    color: rgb(105,28,25);
+    font-weight: 700;
+}
+
+.nav-tabs .nav-item {
+    margin-right:32px;
+    background-color: rgb(161,58,59);
+}
+
+.add-btn {
+    position:absolute;
+    right: 0px;
+    margin-right:37px;
+}
+.add-btn .add {
+    background-color: rgb(58,50,48);
+    border-radius: 23%;
+    color:white !important;
+}
+.add-btn .add:hover {
+    cursor:pointer;
+}
+
+.list-container {
+    width: 725px;
+    margin:auto;
+}
+.list-body input {
+    width:25px;
+    height:25px;
+    margin: 0px 20px;
+}
+
+.list-body {
+    display:flex;
+    height:50px;
+    background-color: #e1c1ac;
+    margin-bottom:20px;
+    align-items: center;
+}
+.list-body .btn {
+    position:absolute;
+    right:32px;
+    border-radius: 7%;
+    background-color: #e7d0d0;
+    width:63px;
+}
+
+
+.list-body h4 {
+    font-size:21px;
+    margin: 0;
+    color:#4d3b3b;
+}
+
+.active {
+    background-color: #352323;
+}
